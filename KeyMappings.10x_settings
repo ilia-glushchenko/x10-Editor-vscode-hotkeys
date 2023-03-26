@@ -1,0 +1,291 @@
+Control P: FindFile
+Control W: CloseFile
+Control S: SaveFile
+Control K, Control S: SaveAll
+Control E: OpenFile
+Control N: NewTextFile
+Control X: Cut
+Control C: Copy
+Control V: Paste
+Control Shift V: PasteHistory
+Control F: FindInFile
+F3: FindInFileNext
+Shift F3: FindInFilePrev
+Control F3: FindInFileNextCurrentWord
+Control Shift F3: FindInFilePrevCurrentWord
+Control H: FindReplaceInFile
+Control G: GoToLine
+Alt Left: PrevLocation
+Alt Right: NextLocation
+Control Alt Left: PrevLocationCurrentFile
+Control Alt Right: NextLocationCurrentFile
+Control D: SelectNextMultiCursor
+Control Z: Undo
+Control Y: Redo
+Control Shift U: MakeSelectionUppercase
+Control U: MakeSelectionLowercase
+Alt Up: MoveLineUp
+Alt Down: MoveLineDown
+Control Shift K: CutLine
+Control Shift L: DeleteLine
+Control Shift E: ShowInWorkspaceTree
+Control Alt Up: MultiCursorMoveUp
+Control Alt Down: MultiCursorMoveDown
+Control Alt Left: MultiCursorMoveLeft
+Control Alt Right: MultiCursorMoveRight
+Control Alt Right: MultiCursorMoveRight
+Control /: Commentline
+Control /: Uncommentline
+Control Shift 7: ToggleComment
+Control D: DuplicateLine
+Control Enter: InsertLine
+Control A: SelectAll
+Control W: SelectCurrentWord
+Shift Alt Right: SelectCurrentScope
+Shift Alt Left: SelectCurrentBracketScope
+Control Shift K: Delete
+Control Shift [: CollapseRegion
+Control Shift ]: ExpandRegion
+Control K, Control K: ToggleCollapseExpandRegion
+Control K, Control J: ExpandAllRegions
+Control B: ToggleWorkspaceExplorer
+Control Shift Left: MovePanelLeft
+Control Shift Right: MovePanelRight
+Control Shift Up: MovePanelUp
+Control Shift Down: MovePanelDown
+Control Shift Alt Left: MovePanelFocusLeft
+Control Shift Alt Right: MovePanelFocusRight
+Control Shift Alt Up: MovePanelFocusUp
+Control Shift Alt Down: MovePanelFocusDown
+Control Tab: ShowSwitchPanelPanel
+Control Shift Tab: ShowSwitchPanelPrevItem
+Control K, Control C: DuplicatePanel
+Control K, Control Left: DuplicatePanelLeft
+Control K, Control Right: DuplicatePanelRight
+Control PageUp: PrevPanelTab
+Control PageDown: NextPanelTab
+Control Shift 8: ToggleWhitespace
+F12: GotoSymbolDefinition
+Control T: FindSymbol
+Shift F12: FindSymbolReferences
+F2: RenameSymbol
+Control F12: FindFunction
+Control Space: Autocomplete
+Control Shift Space: ShowFunctionArgsInfo
+Control Shift B: BuildActiveWorkspace
+Control Shift F9: RebuildActiveWorkspace
+Control F7: BuildCurrentFile
+Shift F8: GotoPrevBuildError
+Control Break: CancelBuild
+F5: StartDebugging
+Control Shift F5: RestartDebugging
+Shift F5: StopDebugging
+Control F5: Run
+F9: ToggleBreakpoint
+Control F9: RemoveAllBreakpointsFromFile
+Control Shift R: RecordKeySequence
+Control Shift P: PlaybackKeySequence
+Control Shift P: ShowCommandPanel
+Control Alt K: ToggleBookmark
+Control Alt PageUp: PrevBookmark
+Control Alt PageDown: NextBookmark
+Control Alt Shift PageUp: PrevBookmarkInFile
+Control Alt Shift PageDown: NextBookmarkInFile
+Control Alt Shift F9: RemoveAllBookmarksFromFile
+Control Shift F8: GotoPrevResult
+Control F8: GotoNextResult
+Control Shift T: RestoreRecentlyClosedFile
+Control M: MoveToMatchingBracket
+Control K, Control Shift F: FormatSelection
+Up: MoveCursorUp
+Down: MoveCursorDown
+Left: MoveCursorLeft
+Right: MoveCursorRight
+Shift Up: SelectUp
+Shift Down: SelectDown
+Shift Left: SelectLeft
+Shift Right: SelectRight
+Home: MoveToLineStart
+End: MoveToLineEnd
+Control Home: MoveToFileStart
+Control End: MoveToFileEnd
+Control Shift Home: SelectToFileStart
+Control Shift End: SelectToFileEnd
+Shift Home: SelectToLineStart
+Shift End: SelectToLineEnd
+Control Shift F: FindInFiles
+Control Shift H: ReplaceInFiles
+Shift F10: ShowContextMenu
+Control Alt Enter: ReplaceNextInFile
+Control Alt A: ReplaceAllInFile
+Tab: IndentLine
+Shift Tab: UnindentLine
+Control Left: MoveCursorPrevWord
+Control Right: MoveCursorNextWord
+Control Shift Left: MoveCursorPrevWordSelect
+Control Shift Right: MoveCursorNextWordSelect
+Control Up: ScrollOneLineUp
+Control Down: ScrollOneLineDown
+PageUp: PageUp
+PageDown: PageDown
+Shift PageUp: SelectPageUp
+Shift PageDown: SelectPageDown
+Alt F1: ShowSymbolInfo
+Control K, Control I: InternetSearch
+Control Shift O: CppParser.ToggleSourceHeader
+Control C: Copy
+Control V: Paste
+Control Y: Redo
+Alt Left: PrevLocation
+Alt Right: NextLocation
+Shift F10: ShowContextMenu
+Control F8: GotoNextResult
+F12: GotoSymbolDefinition
+Shift PageUp: SelectPageUp
+Shift PageDown: SelectPageDown
+Control Alt Shit F: SearchControl P: OpenFile
+Control W: CloseFile
+Control S: SaveFile
+Control K, Control S: SaveAll
+Control E: FindFile
+Control N: NewTextFile
+Control X: Cut
+Control C: Copy
+Control V: Paste
+Control Shift V: PasteHistory
+Control F: FindInFile
+F3: FindInFileNext
+Shift F3: FindInFilePrev
+Control F3: FindInFileNextCurrentWord
+Control Shift F3: FindInFilePrevCurrentWord
+Control H: FindReplaceInFile
+Control G: GoToLine
+Alt Left: PrevLocation
+Alt Right: NextLocation
+Control Alt Left: PrevLocationCurrentFile
+Control Alt Right: NextLocationCurrentFile
+Control D: SelectNextMultiCursor
+Control Z: Undo
+Control Y: Redo
+Control Shift U: MakeSelectionUppercase
+Control U: MakeSelectionLowercase
+Alt Up: MoveLineUp
+Alt Down: MoveLineDown
+Control Shift K: CutLine
+Control Shift L: DeleteLine
+Control Shift E: ShowInWorkspaceTree
+Control Alt Up: MultiCursorMoveUp
+Control Alt Down: MultiCursorMoveDown
+Control Alt Left: MultiCursorMoveLeft
+Control Alt Right: MultiCursorMoveRight
+Control Alt Right: MultiCursorMoveRight
+Control /: Commentline
+Control /: Uncommentline
+Control Shift 7: ToggleComment
+Control D: DuplicateLine
+Control Enter: InsertLine
+Control A: SelectAll
+Control W: SelectCurrentWord
+Shift Alt Right: SelectCurrentScope
+Shift Alt Left: SelectCurrentBracketScope
+Control Shift K: Delete
+Control Shift [: CollapseRegion
+Control Shift ]: ExpandRegion
+Control K, Control K: ToggleCollapseExpandRegion
+Control K, Control J: ExpandAllRegions
+Control B: ToggleWorkspaceExplorer
+Control Shift Left: MovePanelLeft
+Control Shift Right: MovePanelRight
+Control Shift Up: MovePanelUp
+Control Shift Down: MovePanelDown
+Control Shift Alt Left: MovePanelFocusLeft
+Control Shift Alt Right: MovePanelFocusRight
+Control Shift Alt Up: MovePanelFocusUp
+Control Shift Alt Down: MovePanelFocusDown
+Control Tab: ShowSwitchPanelPanel
+Control Shift Tab: ShowSwitchPanelPrevItem
+Control K, Control C: DuplicatePanel
+Control K, Control Left: DuplicatePanelLeft
+Control K, Control Right: DuplicatePanelRight
+Control PageUp: PrevPanelTab
+Control PageDown: NextPanelTab
+Control Shift 8: ToggleWhitespace
+F12: GotoSymbolDefinition
+Control T: FindSymbol
+Shift F12: FindSymbolReferences
+F2: RenameSymbol
+Control F12: FindFunction
+Control Space: Autocomplete
+Control Shift Space: ShowFunctionArgsInfo
+Control Shift B: BuildActiveWorkspace
+Control Shift F9: RebuildActiveWorkspace
+Control F7: BuildCurrentFile
+Shift F8: GotoPrevBuildError
+Control Break: CancelBuild
+F5: StartDebugging
+Control Shift F5: RestartDebugging
+Shift F5: StopDebugging
+Control F5: Run
+F9: ToggleBreakpoint
+Control F9: RemoveAllBreakpointsFromFile
+Control Shift R: RecordKeySequence
+Control Shift P: PlaybackKeySequence
+Control Shift P: ShowCommandPanel
+Control Alt K: ToggleBookmark
+Control Alt PageUp: PrevBookmark
+Control Alt PageDown: NextBookmark
+Control Alt Shift PageUp: PrevBookmarkInFile
+Control Alt Shift PageDown: NextBookmarkInFile
+Control Alt Shift F9: RemoveAllBookmarksFromFile
+Control Shift F8: GotoPrevResult
+Control F8: GotoNextResult
+Control Shift T: RestoreRecentlyClosedFile
+Control M: MoveToMatchingBracket
+Control K, Control Shift F: FormatSelection
+Up: MoveCursorUp
+Down: MoveCursorDown
+Left: MoveCursorLeft
+Right: MoveCursorRight
+Shift Up: SelectUp
+Shift Down: SelectDown
+Shift Left: SelectLeft
+Shift Right: SelectRight
+Home: MoveToLineStart
+End: MoveToLineEnd
+Control Home: MoveToFileStart
+Control End: MoveToFileEnd
+Control Shift Home: SelectToFileStart
+Control Shift End: SelectToFileEnd
+Shift Home: SelectToLineStart
+Shift End: SelectToLineEnd
+Control Shift F: FindInFiles
+Control Shift H: ReplaceInFiles
+Shift F10: ShowContextMenu
+Control Alt Enter: ReplaceNextInFile
+Control Alt A: ReplaceAllInFile
+Tab: IndentLine
+Shift Tab: UnindentLine
+Control Left: MoveCursorPrevWord
+Control Right: MoveCursorNextWord
+Control Shift Left: MoveCursorPrevWordSelect
+Control Shift Right: MoveCursorNextWordSelect
+Control Up: ScrollOneLineUp
+Control Down: ScrollOneLineDown
+PageUp: PageUp
+PageDown: PageDown
+Shift PageUp: SelectPageUp
+Shift PageDown: SelectPageDown
+Alt F1: ShowSymbolInfo
+Control K, Control I: InternetSearch
+Control Shift O: CppParser.ToggleSourceHeader
+Control C: Copy
+Control V: Paste
+Control Y: Redo
+Alt Left: PrevLocation
+Alt Right: NextLocation
+Shift F10: ShowContextMenu
+Control F8: GotoNextResult
+F12: GotoSymbolDefinition
+Shift PageUp: SelectPageUp
+Shift PageDown: SelectPageDown
+Control Alt Shift F: Search
